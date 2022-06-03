@@ -1,0 +1,7 @@
+DB:
+    insert users (name, surname, email) values ('Iskhak', 'Abdin', i.abdin@internet.ru);
+    insert users (name, surname, email) values ('Natia', 'Abesadze', n.abesadze@internet.ru);
+    insert users (name, surname, email) values ('Elizaveta ', 'Abramova', e.abramova@internet.ru);
+    insert users (name, surname, enail) values ('Diana', 'Avdeeva', d.avdeeva@internet.ru)
+
+
