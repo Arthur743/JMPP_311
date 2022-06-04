@@ -22,7 +22,6 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional
     public void updateUser(int id, User user) {
-        System.out.println(">>>>>>>>Method update works<<<<<<<<");
         userDao.updateUser(id, user);
     }
 
@@ -35,7 +34,6 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional
     public void deleteUser(int id) {
-        System.out.println(">>>>>>>>Method delete works<<<<<<<<");
         userDao.deleteUser(id);
     }
 
